@@ -1,0 +1,141 @@
+/* Sorry, this styling is extremely messy.  I am still learning how to style more efficiently.*/
+
+#apps {
+	position: relative;
+	bottom: -5px;
+	height: 20px;
+}
+#bell {
+	position: relative;
+	bottom: -5px;
+	height: 20px;
+	padding-bottom: 1px;
+}
+#username {
+	position: relative;
+	bottom: -5px;
+	height: 30px;
+	border-radius: 15px;
+}
+#name {
+	color: gray;
+	padding-bottom: 5px;
+}
+
+body {
+	font-family: sans-serif;
+}
+.navbar {
+	float: right;
+	display: inline
+}
+
+li {
+	display: inline;
+}
+
+.navbar ul li {
+	margin-right: 20px;
+	width: 100px;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.buttons a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 35px;
+	clear: both;
+}
+
+.textbox, .buttons, .footer {
+	clear: both;
+}
+
+form {
+	position: relative;
+	left: 12px;
+	text-align: center;
+}
+
+form img {
+	position: relative;
+	bottom: -5px;
+	right: 25px;
+	height: 20px;
+}
+
+#search, #lucky {
+	width: 140px;
+	height: 30px;
+	margin-top: 20px;
+	position: relative;
+	line-height: 30px;
+	border-radius: 3px;
+	color: gray;
+	background-color: #f2f2f2;
+	
+}
+
+#search {
+	margin-right: 5px;
+}
+
+#lucky {
+	margin-left: 5px;
+}
+
+.buttons {
+	margin: auto;
+	float: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;	
+	height: 60px;
+}
+
+input {
+	height: 30px;
+	width: 550px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #f2f2f2;
+}
+
+.left_foot {
+	float: left;
+}
+
+.right_foot {
+	float: right;
+	position: relative;
+	margin-right: 35px;
+}
+
+.right_foot li {
+	margin-right: 20px;
+}
+
+.left_foot li {
+	margin-right: 20px;
+}
